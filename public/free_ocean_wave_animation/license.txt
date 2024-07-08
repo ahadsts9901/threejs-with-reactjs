@@ -1,0 +1,8 @@
+Model Information:
+* title:	Free Ocean wave animation
+* source:	https://sketchfab.com/3d-models/free-ocean-wave-animation-83d3a7d7fe5a4aaa8cc48ef5b242c9a8
+* author:	the9thearl (https://sketchfab.com/the9thearl)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

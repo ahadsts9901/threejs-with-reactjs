@@ -1,0 +1,11 @@
+Model Information:
+* title:	Rusticl Knife
+* source:	https://sketchfab.com/3d-models/rusticl-knife-8292e779c0984b02ba45265f3ff78048
+* author:	re1monsen (https://sketchfab.com/re1monsen)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Rusticl Knife" (https://sketchfab.com/3d-models/rusticl-knife-8292e779c0984b02ba45265f3ff78048) by re1monsen (https://sketchfab.com/re1monsen) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
