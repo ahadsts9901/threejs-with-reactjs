@@ -1,15 +1,13 @@
 import "./App.css";
 import CanvasComponent from "./components/CanvasComponent";
-import Overlay from "./Overlay";
-import { BuildingModel } from "./components/BuildingModel";
+import { BuildingModel } from "./components/models/BuildingModel";
 
 function App() {
   return (
-    <div id="canvas-container" style={{ width: "100vw", height: "90vh" }}>
+    <div id="canvas-container" style={{ width: "100vw", height: "100vh" }}>
       <CanvasComponent>
         <BuildingModel />
       </CanvasComponent>
-      <Overlay />
     </div>
   );
 }

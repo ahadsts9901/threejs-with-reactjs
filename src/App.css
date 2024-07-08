@@ -8,3 +8,8 @@ body {
   width: 100vw;
   height: 100vh;
 }
+
+#root {
+  background: rgb(58, 58, 58);
+  background: radial-gradient(circle, rgba(58, 58, 58, 1) 0%, rgba(25, 25, 25, 1) 100%);
+}
