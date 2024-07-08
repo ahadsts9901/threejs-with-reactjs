@@ -1,20 +1,28 @@
+import { Navigate, Route, Routes } from "react-router-dom";
 import "./App.css";
 import CanvasComponent from "./components/CanvasComponent";
-import { BuildingModel } from "./components/models/BuildingModel";
 import { KnifeModel } from "./components/models/Knife";
-import { OceanModel } from "./components/models/Ocean";
 import { Track } from "./components/models/Track";
+import { BuildingModel } from "./components/models/BuildingModel";
+import { OceanModel } from "./components/models/Ocean";
+import Header from "./Header";
 
 function App() {
   return (
-    <div id="canvas-container" style={{ width: "100vw", height: "100vh" }}>
-      <CanvasComponent>
-        {/* <BuildingModel /> */}
-        {/* <KnifeModel /> */}
-        {/* <OceanModel /> */}
-        <Track />
-      </CanvasComponent>
-    </div>
+    <>
+      <Header />
+      <div id="canvas-container" style={{ width: "100vw", height: "90vh" }}>
+        <CanvasComponent>
+          <Routes>
+            <Route path="/knife" element={<KnifeModel />} />
+            <Route path="/track" element={<Track />} />
+            <Route path="/building" element={<BuildingModel />} />
+            <Route path="/ocean" element={<OceanModel />} />
+            <Route path="*" element={<Navigate to="/knife" replace={true} />} />
+          </Routes>
+        </CanvasComponent>
+      </div>
+    </>
   );
 }
 
