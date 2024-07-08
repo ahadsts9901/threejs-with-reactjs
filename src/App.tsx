@@ -3,6 +3,7 @@ import CanvasComponent from "./components/CanvasComponent";
 import { BuildingModel } from "./components/models/BuildingModel";
 import { KnifeModel } from "./components/models/Knife";
 import { OceanModel } from "./components/models/Ocean";
+import { Track } from "./components/models/Track";
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
       <CanvasComponent>
         {/* <BuildingModel /> */}
         {/* <KnifeModel /> */}
-        <OceanModel />
+        {/* <OceanModel /> */}
+        <Track />
       </CanvasComponent>
     </div>
   );
